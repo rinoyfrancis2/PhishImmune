@@ -1,0 +1,737 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		889677BB2CDD94D7004972FE /* PhishImmune Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 889677BA2CDD94D7004972FE /* PhishImmune Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		889677A52CDD94D7004972FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 889677802CDD94D6004972FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 889677872CDD94D6004972FE;
+			remoteInfo = PhishImmune;
+		};
+		889677AF2CDD94D7004972FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 889677802CDD94D6004972FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 889677872CDD94D6004972FE;
+			remoteInfo = PhishImmune;
+		};
+		889677BC2CDD94D7004972FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 889677802CDD94D6004972FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 889677B92CDD94D7004972FE;
+			remoteInfo = "PhishImmune Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		889677DA2CDD94D7004972FE /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				889677BB2CDD94D7004972FE /* PhishImmune Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		889677882CDD94D6004972FE /* PhishImmune.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhishImmune.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		889677A42CDD94D7004972FE /* PhishImmuneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhishImmuneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		889677AE2CDD94D7004972FE /* PhishImmuneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhishImmuneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		889677BA2CDD94D7004972FE /* PhishImmune Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PhishImmune Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		889677D42CDD94D7004972FE /* Exceptions for "PhishImmune Extension" folder in "PhishImmune Extension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 889677B92CDD94D7004972FE /* PhishImmune Extension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8896778A2CDD94D6004972FE /* PhishImmune */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PhishImmune;
+			sourceTree = "<group>";
+		};
+		889677A72CDD94D7004972FE /* PhishImmuneTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PhishImmuneTests;
+			sourceTree = "<group>";
+		};
+		889677B12CDD94D7004972FE /* PhishImmuneUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PhishImmuneUITests;
+			sourceTree = "<group>";
+		};
+		889677BE2CDD94D7004972FE /* PhishImmune Extension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				889677D42CDD94D7004972FE /* Exceptions for "PhishImmune Extension" folder in "PhishImmune Extension" target */,
+			);
+			explicitFolders = (
+				Resources/_locales,
+				Resources/images,
+			);
+			path = "PhishImmune Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		889677852CDD94D6004972FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		889677A12CDD94D7004972FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		889677AB2CDD94D7004972FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		889677B72CDD94D7004972FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8896777F2CDD94D6004972FE = {
+			isa = PBXGroup;
+			children = (
+				8896778A2CDD94D6004972FE /* PhishImmune */,
+				889677A72CDD94D7004972FE /* PhishImmuneTests */,
+				889677B12CDD94D7004972FE /* PhishImmuneUITests */,
+				889677BE2CDD94D7004972FE /* PhishImmune Extension */,
+				889677892CDD94D6004972FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		889677892CDD94D6004972FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				889677882CDD94D6004972FE /* PhishImmune.app */,
+				889677A42CDD94D7004972FE /* PhishImmuneTests.xctest */,
+				889677AE2CDD94D7004972FE /* PhishImmuneUITests.xctest */,
+				889677BA2CDD94D7004972FE /* PhishImmune Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		889677872CDD94D6004972FE /* PhishImmune */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 889677DB2CDD94D7004972FE /* Build configuration list for PBXNativeTarget "PhishImmune" */;
+			buildPhases = (
+				889677842CDD94D6004972FE /* Sources */,
+				889677852CDD94D6004972FE /* Frameworks */,
+				889677862CDD94D6004972FE /* Resources */,
+				889677DA2CDD94D7004972FE /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				889677BD2CDD94D7004972FE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8896778A2CDD94D6004972FE /* PhishImmune */,
+			);
+			name = PhishImmune;
+			packageProductDependencies = (
+			);
+			productName = PhishImmune;
+			productReference = 889677882CDD94D6004972FE /* PhishImmune.app */;
+			productType = "com.apple.product-type.application";
+		};
+		889677A32CDD94D7004972FE /* PhishImmuneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 889677DE2CDD94D7004972FE /* Build configuration list for PBXNativeTarget "PhishImmuneTests" */;
+			buildPhases = (
+				889677A02CDD94D7004972FE /* Sources */,
+				889677A12CDD94D7004972FE /* Frameworks */,
+				889677A22CDD94D7004972FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				889677A62CDD94D7004972FE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				889677A72CDD94D7004972FE /* PhishImmuneTests */,
+			);
+			name = PhishImmuneTests;
+			packageProductDependencies = (
+			);
+			productName = PhishImmuneTests;
+			productReference = 889677A42CDD94D7004972FE /* PhishImmuneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		889677AD2CDD94D7004972FE /* PhishImmuneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 889677E12CDD94D7004972FE /* Build configuration list for PBXNativeTarget "PhishImmuneUITests" */;
+			buildPhases = (
+				889677AA2CDD94D7004972FE /* Sources */,
+				889677AB2CDD94D7004972FE /* Frameworks */,
+				889677AC2CDD94D7004972FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				889677B02CDD94D7004972FE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				889677B12CDD94D7004972FE /* PhishImmuneUITests */,
+			);
+			name = PhishImmuneUITests;
+			packageProductDependencies = (
+			);
+			productName = PhishImmuneUITests;
+			productReference = 889677AE2CDD94D7004972FE /* PhishImmuneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		889677B92CDD94D7004972FE /* PhishImmune Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 889677D52CDD94D7004972FE /* Build configuration list for PBXNativeTarget "PhishImmune Extension" */;
+			buildPhases = (
+				889677B62CDD94D7004972FE /* Sources */,
+				889677B72CDD94D7004972FE /* Frameworks */,
+				889677B82CDD94D7004972FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				889677BE2CDD94D7004972FE /* PhishImmune Extension */,
+			);
+			name = "PhishImmune Extension";
+			packageProductDependencies = (
+			);
+			productName = "PhishImmune Extension";
+			productReference = 889677BA2CDD94D7004972FE /* PhishImmune Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		889677802CDD94D6004972FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					889677872CDD94D6004972FE = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					889677A32CDD94D7004972FE = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 889677872CDD94D6004972FE;
+					};
+					889677AD2CDD94D7004972FE = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 889677872CDD94D6004972FE;
+					};
+					889677B92CDD94D7004972FE = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 889677832CDD94D6004972FE /* Build configuration list for PBXProject "PhishImmune" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8896777F2CDD94D6004972FE;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 889677892CDD94D6004972FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				889677872CDD94D6004972FE /* PhishImmune */,
+				889677A32CDD94D7004972FE /* PhishImmuneTests */,
+				889677AD2CDD94D7004972FE /* PhishImmuneUITests */,
+				889677B92CDD94D7004972FE /* PhishImmune Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		889677862CDD94D6004972FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		889677A22CDD94D7004972FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		889677AC2CDD94D7004972FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		889677B82CDD94D7004972FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		889677842CDD94D6004972FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		889677A02CDD94D7004972FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		889677AA2CDD94D7004972FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		889677B62CDD94D7004972FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		889677A62CDD94D7004972FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 889677872CDD94D6004972FE /* PhishImmune */;
+			targetProxy = 889677A52CDD94D7004972FE /* PBXContainerItemProxy */;
+		};
+		889677B02CDD94D7004972FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 889677872CDD94D6004972FE /* PhishImmune */;
+			targetProxy = 889677AF2CDD94D7004972FE /* PBXContainerItemProxy */;
+		};
+		889677BD2CDD94D7004972FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 889677B92CDD94D7004972FE /* PhishImmune Extension */;
+			targetProxy = 889677BC2CDD94D7004972FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		889677D62CDD94D7004972FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "PhishImmune Extension/PhishImmune_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PhishImmune Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "PhishImmune Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.devloper.rf.PhishImmune.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		889677D72CDD94D7004972FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "PhishImmune Extension/PhishImmune_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PhishImmune Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "PhishImmune Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.devloper.rf.PhishImmune.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		889677D82CDD94D7004972FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		889677D92CDD94D7004972FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		889677DC2CDD94D7004972FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PhishImmune/PhishImmune.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PhishImmune;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.devloper.rf.PhishImmune;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		889677DD2CDD94D7004972FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PhishImmune/PhishImmune.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PhishImmune;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.devloper.rf.PhishImmune;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		889677DF2CDD94D7004972FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devloper.rf.PhishImmuneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhishImmune.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PhishImmune";
+			};
+			name = Debug;
+		};
+		889677E02CDD94D7004972FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devloper.rf.PhishImmuneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhishImmune.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PhishImmune";
+			};
+			name = Release;
+		};
+		889677E22CDD94D7004972FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devloper.rf.PhishImmuneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = PhishImmune;
+			};
+			name = Debug;
+		};
+		889677E32CDD94D7004972FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devloper.rf.PhishImmuneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = PhishImmune;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		889677832CDD94D6004972FE /* Build configuration list for PBXProject "PhishImmune" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				889677D82CDD94D7004972FE /* Debug */,
+				889677D92CDD94D7004972FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		889677D52CDD94D7004972FE /* Build configuration list for PBXNativeTarget "PhishImmune Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				889677D62CDD94D7004972FE /* Debug */,
+				889677D72CDD94D7004972FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		889677DB2CDD94D7004972FE /* Build configuration list for PBXNativeTarget "PhishImmune" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				889677DC2CDD94D7004972FE /* Debug */,
+				889677DD2CDD94D7004972FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		889677DE2CDD94D7004972FE /* Build configuration list for PBXNativeTarget "PhishImmuneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				889677DF2CDD94D7004972FE /* Debug */,
+				889677E02CDD94D7004972FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		889677E12CDD94D7004972FE /* Build configuration list for PBXNativeTarget "PhishImmuneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				889677E22CDD94D7004972FE /* Debug */,
+				889677E32CDD94D7004972FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 889677802CDD94D6004972FE /* Project object */;
+}
