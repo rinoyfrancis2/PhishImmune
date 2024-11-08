@@ -1,4 +1,5 @@
-# PhishImmune - Cross-Platform Browser Extension for Phishing Detection
+# PhishImmune - Cross-Platform Browser Extension for Phishing Detection (Initial Phase)
+
 
 **PhishImmune** is a cross-platform browser extension designed to enhance web security by detecting and blocking phishing URLs. It provides real-time alerts and protection against malicious sites, helping users stay safe while browsing the web.
 
